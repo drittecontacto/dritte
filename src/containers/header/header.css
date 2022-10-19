@@ -14,12 +14,13 @@
 }
 
 .gpt3__header-content h1 {
-    height: 30%;
+    height: 22.5%;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 150px;
     line-height: 100px;
     letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
 }
 
 .gpt3__header-content p {
@@ -29,7 +30,7 @@
     line-height: 28px;
     color: var(--color-text);
 
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
 }
 
 .gpt3__header-content__input {

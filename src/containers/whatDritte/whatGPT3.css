@@ -45,7 +45,7 @@
     justify-content: space-between;
     align-items: center;
     
-    margin: 4rem 0 2rem;
+    /* margin: 4rem 0 2rem; */
 }
 
 .gpt3__whatgpt3-heading h1 {
@@ -63,6 +63,8 @@
     line-height: 30px;
     color: var(--color-subtext);
     cursor: pointer;
+    width: 50%;
+    
 }
 
 .gpt3__whatgpt3-container {
@@ -96,6 +98,7 @@
 
     .gpt3__whatgpt3-heading p {
         margin-top: 1rem;
+        width: 100%;
     }
 }
 
@@ -113,6 +116,10 @@
     .gpt3__whatgpt3-heading h1 {
         font-size: 28px;
         line-height: 40px;
+    }
+    .gpt3__whatgpt3-heading p {
+        margin-top: 1rem;
+        width: 100%;
     }
 }
 
