@@ -1,6 +1,13 @@
 .gpt3__header {
     display: flex;
     flex-direction: row;
+    /* background-image: url("C:\Users\franc\Desktop\Dritte\dritte\src\assets\Onlyfans-Logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y:-450%; */
+    
+    
 }
 
 .gpt3__header-content {
@@ -9,7 +16,6 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
     margin-right: 5rem;
 }
 
@@ -18,9 +24,17 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 150px;
-    line-height: 100px;
+    line-height: 150px;
     letter-spacing: -0.04em;
     margin-bottom: 1.5rem;
+}
+.onlyFans-img img {
+    width: 100%;
+    height: 70%;
+    background: inherit;
+    opacity: .1;
+    margin: 0;
+    padding: 0;
 }
 
 .gpt3__header-content p {
@@ -116,21 +130,24 @@
 .gpt3__header-image img {
     width: 100%;
     height: 100%;
+    
     /* padding: 20px; */
     /* border-radius: 40%; */
-    border:1px solid white
+    /* border:1px solid white */
    
 }
 
 @media screen and (max-width: 1050px) {
     .gpt3__header {
-        flex-direction: column;
+        flex-direction: row;
     }
    
     
 
     .gpt3__header-content {
         margin: 0 0 3rem;
+        width: 30%s;
+        margin-right: 4vh;
     }
     .gpt3__header-content h1 {
         height: 30%;
@@ -140,9 +157,20 @@
         line-height: 120px;
         letter-spacing: -0.04em;
     }
+    .onlyFans-img img {
+        width: 40%;
+        /* height: 30%; */
+        background: inherit;
+        opacity: .1;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 650px) {
+    .gpt3__header {
+        flex-direction: column;
+    }
     .gpt3__header-content h1 {
         font-size: 100px;
         line-height: 110px;
@@ -166,6 +194,15 @@
         font-size: 16px;
         line-height: 24px;
     }
+
+    .onlyFans-img img {
+        width: 100%;
+        height: 70%;
+        background: inherit;
+        opacity: .1;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -183,5 +220,13 @@
     .gpt3__header-content__input button {
         font-size: 12px;
         line-height: 16px;
+    }
+    .onlyFans-img img {
+        width: 100%;
+        height: 70%;
+        background: inherit;
+        opacity: .1;
+        margin: 0;
+        padding: 0;
     }
 }

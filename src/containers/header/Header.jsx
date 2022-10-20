@@ -4,6 +4,7 @@ import ai from '../../assets/ai.png';
 import dritte from '../../assets/dritte.png'
 import dritte3D from '../../assets/dritte3d.tif'
 import people from '../../assets/people.png';
+import onlyFans from "../../assets/Onlyfans-Logo.png"
 import './header.css';
 
 const Header = () => (
@@ -21,13 +22,17 @@ const Header = () => (
       </div> */}
 
       <div className="gpt3__header-content__people">
-        <img src={people} />
-        <p>1,600 people requested access a visit in last 24 hours</p>
+        <img src={people}/>
+        <p>5+ personas se contactaron con nosotros</p>
       </div>
+      <div className="onlyFans-img">
+      <img src={onlyFans} width="400px" height="300px" ></img>
     </div>
+    </div>
+   
 
     <div className="gpt3__header-image">
-      <img src={dritte}/>
+      <img src={dritte} className="gpt3__dritte-image"/>
     </div>
   </div>
 );
