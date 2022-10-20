@@ -25,9 +25,9 @@ const Header = () => (
         <img src={people}/>
         <p>5+ personas se contactaron con nosotros</p>
       </div>
-      <div className="onlyFans-img">
+      {/* <div className="onlyFans-img">
       <img src={onlyFans} width="400px" height="300px" ></img>
-    </div>
+    </div> */}
     </div>
    
 
